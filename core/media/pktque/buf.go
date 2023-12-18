@@ -1,7 +1,7 @@
 package pktque
 
 import (
-	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/av"
 )
 
 // Buf struct

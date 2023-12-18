@@ -7,9 +7,12 @@ package ttf
 //    TTF_SetError("%s", str);
 //}
 import "C"
-import "github.com/Youngju-Heo/gomedia/sdl2/sdl"
-import "unsafe"
-import "errors"
+import (
+	"errors"
+	"unsafe"
+
+	"github.com/jakebluelee0/gomedia/sdl2/sdl"
+)
 
 // Hinting settings.
 const (

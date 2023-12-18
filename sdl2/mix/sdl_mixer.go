@@ -25,9 +25,12 @@ package mix
 //	return (frames * 1000) / freq;
 //}
 import "C"
-import "unsafe"
-import "reflect"
-import "github.com/Youngju-Heo/gomedia/sdl2/sdl"
+import (
+	"reflect"
+	"unsafe"
+
+	"github.com/jakebluelee0/gomedia/sdl2/sdl"
+)
 
 // Chunk is the internal format for an audio chunk.
 // (https://www.libsdl.org/projects/SDL_mixer/docs/SDL_mixer_85.html)

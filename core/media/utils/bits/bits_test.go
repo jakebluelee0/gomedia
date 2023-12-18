@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
+	"github.com/jakebluelee0/gomedia/core/media/utils/bits/pio"
 )
 
 func TestBits(t *testing.T) {

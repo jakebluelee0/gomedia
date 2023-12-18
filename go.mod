@@ -1,4 +1,4 @@
-module github.com/Youngju-Heo/gomedia
+module github.com/jakebluelee0/gomedia
 
 go 1.20
 

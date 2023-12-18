@@ -4,9 +4,12 @@ package img
 //#include <stdlib.h>
 //#include "sdl_image_wrapper.h"
 import "C"
-import "unsafe"
-import "errors"
-import "github.com/Youngju-Heo/gomedia/sdl2/sdl"
+import (
+	"errors"
+	"unsafe"
+
+	"github.com/jakebluelee0/gomedia/sdl2/sdl"
+)
 
 // Flags which may be passed to img.Init() to load support of image formats, can be bitwise OR'd together.
 const (

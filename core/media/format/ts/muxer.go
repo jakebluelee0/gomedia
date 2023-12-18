@@ -5,10 +5,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/Youngju-Heo/gomedia/core/media/av"
-	"github.com/Youngju-Heo/gomedia/core/media/codec/aacparser"
-	"github.com/Youngju-Heo/gomedia/core/media/codec/h264parser"
-	"github.com/Youngju-Heo/gomedia/core/media/format/ts/tsio"
+	"github.com/jakebluelee0/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/codec/aacparser"
+	"github.com/jakebluelee0/gomedia/core/media/codec/h264parser"
+	"github.com/jakebluelee0/gomedia/core/media/format/ts/tsio"
 )
 
 // CodecTypes var

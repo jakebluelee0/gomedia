@@ -54,10 +54,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/Youngju-Heo/gomedia/core/common"
-	"github.com/Youngju-Heo/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/common"
+	"github.com/jakebluelee0/gomedia/core/media/av"
 
-	"github.com/Youngju-Heo/gomedia/sdl2/sdl"
+	"github.com/jakebluelee0/gomedia/sdl2/sdl"
 )
 
 //export goAudioCallback

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Youngju-Heo/gomedia/core/media/av"
-	"github.com/Youngju-Heo/gomedia/core/media/av/pktque"
+	"github.com/jakebluelee0/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/av/pktque"
 )
 
 //        time

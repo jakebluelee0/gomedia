@@ -9,7 +9,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/Youngju-Heo/gomedia/sdl2/sdl"
+	"github.com/jakebluelee0/gomedia/sdl2/sdl"
 )
 
 // AudioFormat audio format define

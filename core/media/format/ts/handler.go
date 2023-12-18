@@ -3,8 +3,8 @@ package ts
 import (
 	"io"
 
-	"github.com/Youngju-Heo/gomedia/core/media/av"
-	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/jakebluelee0/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/av/avutil"
 )
 
 // Handler func

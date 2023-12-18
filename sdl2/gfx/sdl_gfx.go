@@ -4,8 +4,11 @@ package gfx
 //#include <stdlib.h>
 //#include "sdl_gfx_wrapper.h"
 import "C"
-import "github.com/Youngju-Heo/gomedia/sdl2/sdl"
-import "unsafe"
+import (
+	"unsafe"
+
+	"github.com/jakebluelee0/gomedia/sdl2/sdl"
+)
 
 // FPS definitions.
 const (

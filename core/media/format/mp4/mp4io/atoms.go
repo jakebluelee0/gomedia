@@ -1,7 +1,10 @@
 package mp4io
 
-import "github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
-import "time"
+import (
+	"time"
+
+	"github.com/jakebluelee0/gomedia/core/media/utils/bits/pio"
+)
 
 // MOOF const
 const MOOF = Tag(0x6d6f6f66)
@@ -102,15 +105,15 @@ func (inst MediaInfo) Tag() Tag {
 // MOOV const
 const MOOV = Tag(0x6d6f6f76)
 
-//Tag func
+// Tag func
 func (inst Movie) Tag() Tag {
 	return MOOV
 }
 
-//MVEX const
+// MVEX const
 const MVEX = Tag(0x6d766578)
 
-//Tag func
+// Tag func
 func (inst MovieExtend) Tag() Tag {
 	return MVEX
 }
@@ -118,7 +121,7 @@ func (inst MovieExtend) Tag() Tag {
 // STSD const
 const STSD = Tag(0x73747364)
 
-//Tag func
+// Tag func
 func (inst SampleDesc) Tag() Tag {
 	return STSD
 }
@@ -126,7 +129,7 @@ func (inst SampleDesc) Tag() Tag {
 // MP4A const
 const MP4A = Tag(0x6d703461)
 
-//Tag func
+// Tag func
 func (inst MP4ADesc) Tag() Tag {
 	return MP4A
 }
@@ -134,7 +137,7 @@ func (inst MP4ADesc) Tag() Tag {
 // CTTS const
 const CTTS = Tag(0x63747473)
 
-//Tag func
+// Tag func
 func (inst CompositionOffset) Tag() Tag {
 	return CTTS
 }
@@ -142,7 +145,7 @@ func (inst CompositionOffset) Tag() Tag {
 // STCO const
 const STCO = Tag(0x7374636f)
 
-//Tag func
+// Tag func
 func (inst ChunkOffset) Tag() Tag {
 	return STCO
 }
@@ -150,7 +153,7 @@ func (inst ChunkOffset) Tag() Tag {
 // TRUN const
 const TRUN = Tag(0x7472756e)
 
-//Tag func
+// Tag func
 func (inst TrackFragRun) Tag() Tag {
 	return TRUN
 }
@@ -158,7 +161,7 @@ func (inst TrackFragRun) Tag() Tag {
 // TRAK const
 const TRAK = Tag(0x7472616b)
 
-//Tag func
+// Tag func
 func (inst Track) Tag() Tag {
 	return TRAK
 }
@@ -166,7 +169,7 @@ func (inst Track) Tag() Tag {
 // MDIA const
 const MDIA = Tag(0x6d646961)
 
-//Tag func
+// Tag func
 func (inst Media) Tag() Tag {
 	return MDIA
 }
@@ -174,7 +177,7 @@ func (inst Media) Tag() Tag {
 // STSC const
 const STSC = Tag(0x73747363)
 
-//Tag func
+// Tag func
 func (inst SampleToChunk) Tag() Tag {
 	return STSC
 }
@@ -182,7 +185,7 @@ func (inst SampleToChunk) Tag() Tag {
 // VMHD const
 const VMHD = Tag(0x766d6864)
 
-//Tag func
+// Tag func
 func (inst VideoMediaInfo) Tag() Tag {
 	return VMHD
 }
@@ -190,7 +193,7 @@ func (inst VideoMediaInfo) Tag() Tag {
 // STBL const
 const STBL = Tag(0x7374626c)
 
-//Tag func
+// Tag func
 func (inst SampleTable) Tag() Tag {
 	return STBL
 }
@@ -198,7 +201,7 @@ func (inst SampleTable) Tag() Tag {
 // AVCC const
 const AVCC = Tag(0x61766343)
 
-//Tag func
+// Tag func
 func (inst AVC1Conf) Tag() Tag {
 	return AVCC
 }
@@ -206,7 +209,7 @@ func (inst AVC1Conf) Tag() Tag {
 // TFDT const
 const TFDT = Tag(0x74666474)
 
-//Tag func
+// Tag func
 func (inst TrackFragDecodeTime) Tag() Tag {
 	return TFDT
 }
@@ -214,7 +217,7 @@ func (inst TrackFragDecodeTime) Tag() Tag {
 // DINF const
 const DINF = Tag(0x64696e66)
 
-//Tag func
+// Tag func
 func (inst DataInfo) Tag() Tag {
 	return DINF
 }
@@ -222,7 +225,7 @@ func (inst DataInfo) Tag() Tag {
 // DREF const
 const DREF = Tag(0x64726566)
 
-//Tag func
+// Tag func
 func (inst DataRefer) Tag() Tag {
 	return DREF
 }
@@ -230,7 +233,7 @@ func (inst DataRefer) Tag() Tag {
 // TRAF const
 const TRAF = Tag(0x74726166)
 
-//Tag func
+// Tag func
 func (inst TrackFrag) Tag() Tag {
 	return TRAF
 }
@@ -238,7 +241,7 @@ func (inst TrackFrag) Tag() Tag {
 // STSZ const
 const STSZ = Tag(0x7374737a)
 
-//Tag func
+// Tag func
 func (inst SampleSize) Tag() Tag {
 	return STSZ
 }
@@ -246,7 +249,7 @@ func (inst SampleSize) Tag() Tag {
 // TFHD const
 const TFHD = Tag(0x74666864)
 
-//Tag func
+// Tag func
 func (inst TrackFragHeader) Tag() Tag {
 	return TFHD
 }
@@ -254,7 +257,7 @@ func (inst TrackFragHeader) Tag() Tag {
 // TKHD const
 const TKHD = Tag(0x746b6864)
 
-//Tag func
+// Tag func
 func (inst TrackHeader) Tag() Tag {
 	return TKHD
 }
@@ -262,7 +265,7 @@ func (inst TrackHeader) Tag() Tag {
 // SMHD const
 const SMHD = Tag(0x736d6864)
 
-//Tag func
+// Tag func
 func (inst SoundMediaInfo) Tag() Tag {
 	return SMHD
 }

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Youngju-Heo/gomedia/core/media/utils/bits/pio"
+	"github.com/jakebluelee0/gomedia/core/media/utils/bits/pio"
 )
 
 // ParseError struct

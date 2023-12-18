@@ -3,8 +3,8 @@ package codec
 import (
 	"time"
 
-	"github.com/Youngju-Heo/gomedia/core/media/av"
-	"github.com/Youngju-Heo/gomedia/core/media/codec/fake"
+	"github.com/jakebluelee0/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/codec/fake"
 )
 
 // PCMUCodecData struct

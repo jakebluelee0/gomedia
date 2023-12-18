@@ -10,8 +10,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Youngju-Heo/gomedia/core/media/av"
-	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
+	"github.com/jakebluelee0/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/av/avutil"
 )
 
 func channelLayoutFF2AV(layout C.uint64_t) (channelLayout av.ChannelLayout) {

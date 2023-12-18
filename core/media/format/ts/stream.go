@@ -3,8 +3,8 @@ package ts
 import (
 	"time"
 
-	"github.com/Youngju-Heo/gomedia/core/media/av"
-	"github.com/Youngju-Heo/gomedia/core/media/format/ts/tsio"
+	"github.com/jakebluelee0/gomedia/core/media/av"
+	"github.com/jakebluelee0/gomedia/core/media/format/ts/tsio"
 )
 
 // Stream struct

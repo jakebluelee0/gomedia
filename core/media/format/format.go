@@ -1,13 +1,13 @@
 package format
 
 import (
-	"github.com/Youngju-Heo/gomedia/core/media/av/avutil"
-	"github.com/Youngju-Heo/gomedia/core/media/format/aac"
-	"github.com/Youngju-Heo/gomedia/core/media/format/flv"
-	"github.com/Youngju-Heo/gomedia/core/media/format/mp4"
-	"github.com/Youngju-Heo/gomedia/core/media/format/rtmp"
-	"github.com/Youngju-Heo/gomedia/core/media/format/rtsp"
-	"github.com/Youngju-Heo/gomedia/core/media/format/ts"
+	"github.com/jakebluelee0/gomedia/core/media/av/avutil"
+	"github.com/jakebluelee0/gomedia/core/media/format/aac"
+	"github.com/jakebluelee0/gomedia/core/media/format/flv"
+	"github.com/jakebluelee0/gomedia/core/media/format/mp4"
+	"github.com/jakebluelee0/gomedia/core/media/format/rtmp"
+	"github.com/jakebluelee0/gomedia/core/media/format/rtsp"
+	"github.com/jakebluelee0/gomedia/core/media/format/ts"
 )
 
 // RegisterAll func
